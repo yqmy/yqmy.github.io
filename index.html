@@ -18,7 +18,7 @@
 <p>&nbsp;</p>
 <p>这样我们的目的就达成了：我们得到了一个生成式的模型G，它可以用来生成图片。</p>
 <p>以上只是大致说了一下GAN的核心原理，如何用数学语言描述呢？这里直接摘录论文里的公式：</p>
-<p class='md-math-block'>$
+<p class='has-jax'>$
 \min\limits_{G}\max\limits_{D}V(D,G)=E_{x\sim p_{data}(x)}[\log D(x)]+E_{z\sim p_{z}(z)}[\log (1-D(G(z)))].
 $</p>
 <p>简单分析一下这个公式：</p>
